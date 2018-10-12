@@ -1,6 +1,6 @@
 {% extends 'blog/base.html' %}
 {% block content %}
-<h1>A desgraça foi </h1>
+<h1>Listagem Desses Arrombados ! </h1>
     {% for pessoa in pessoals %}
     <div class="post">
         <h1><a href="{% url 'pessoal_detail' pk=pessoa.pk %}"> Nome : {{ pessoa.nome }}</a></h1>
